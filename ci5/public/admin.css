@@ -1,0 +1,333 @@
+* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: cursive;
+    width: 100%;
+}
+
+body {
+    line-height:1;
+    font-size:100%;
+    font-family: cursive;
+    color:#5a5a5a;
+}
+#container {
+    max-width: 1330px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+#wrapper {
+    display: grid;
+    gap: 30px;
+  }
+  
+  #main {
+    padding: 10px 20px ;
+    color: gray;
+  }
+  
+  #main > hr {
+    border: 1px solid gray;
+    opacity: .5;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  #sidebar {
+    padding: 30px 0;
+    padding-right: 30px;
+  }
+
+/* header */
+header {
+    padding: 5px; 
+}
+header h1 {
+    margin: 20px;
+    color: #b5b5b5;
+    font-family: cursive;
+}
+
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: cursive;
+}
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    opacity: 0.9;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    font-family: cursive;   
+  }
+  
+  
+  
+/* ADMIN TABEL */
+body{
+    font-family: cursive;
+    margin-bottom: 80px;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+    width: 95%;
+}
+table td{
+    border: 1px solid #c9c9c9;
+    font-size: 19px;
+    padding: 10px 8px;
+}
+table th {
+    background:#4d8cd4;
+    color:#ffffff;
+    font-size: 17px;
+    text-align: left;
+    border: 1px solid #c9c9c9;
+    padding: 13px 15px;
+}
+table tr {
+    background:#ffffff;
+    text-align: left;
+}
+tr:hover{
+    background: #e7e7e7;
+}
+
+/* ADMIN TOMBOL */
+.btn{
+    font-size: 14px;
+    background-color: #afafaf;
+    color: #444444;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8x;
+    text-decoration: none;
+}
+
+.btn-danger{
+    font-size: 14px;
+    background-color: rgb(223, 35, 35);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8x;
+    text-decoration: none;
+}
+
+a:active,
+a:hover{
+    opacity: 80%;
+}
+
+/* TAMBAH ARTIKEL */
+textarea{
+    width: 94%;
+    padding: 0px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+input[type=text]{
+    width: 94%;
+    padding: 0px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 20px;   
+    font-family: cursive;
+}
+
+input[type=submit]{
+    background-color: rgb(30, 117, 216);
+    color: white;
+    box-sizing: border-box;
+    font-size: 15px; 
+    font-family: cursive;
+}
+
+input[type=submit]:active,
+input[type=submit]:hover{
+    opacity: 80%;
+   
+}
+
+h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+/* PAGINATION */
+.pagination {
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+}
+  
+.pagination > li {
+    display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.5;
+    color: #0275d8;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+/* SEARCH */
+.form-search input[type=text]{
+    width: 27%;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    background-color: rgb(30, 117, 216);
+    color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: auto;   
+}
+
+.btn-primary:active,
+.btn-primary:hover{
+    opacity: 80%;
+}
+
+/* INPUT GAMBAR */
+input[type=file]{
+    margin: 20px;
+}
+
+
+.logout .inputBox {
+    position: relative;
+   }
+   
+   .logout .inputBox input {
+       position: relative;
+       padding: 15px 20px;
+       outline: none;
+       font-size: 1.25em;
+       color: #8f2c24;
+       border-radius: 5px;
+       border: none;
+       margin-bottom: 30px;
+
+   }
+
+   .logout .inputBox #btn {
+       position: relative;
+       border: none;
+       outline: none;
+       background: #8f2c24;
+       color: #fff;
+       cursor: pointer;
+       font-size: 500;
+       transition: 0.5s;
+
+   }
+   .logout .inputBox #btn:hover {
+       background: #d64c42;
+   }
+   
+   .file-input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .file-input {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  
+  .file-input-label:hover {
+    background-color: #c62828;
+    
+  }
+
+  .file-input-contaiiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  input {   
+    cursor: pointer;
+  }
