@@ -5,7 +5,7 @@
   <?php if ($artikel) : foreach ($artikel as $row) : ?>
       <article class="artikel">
         <a href="<?= base_url('/artikel/' . $row['slug']); ?>">
-          <img src="/img/<?= $row['gambar'] == null ? 'image-null.png' : $row['gambar'] ?>" alt="<?= $row['judul']; ?>">
+        <img src="<?= base_url('/gambar/' . $row['gambar']);?>" alt="<?=$row['judul']; ?>">
           <div>
             <h2>
               <?= $row['judul']; ?>

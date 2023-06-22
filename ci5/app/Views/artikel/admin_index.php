@@ -11,7 +11,6 @@ $q = isset($_GET['q']) ? $_GET['q'] : '';
         justify-content: center;
         margin-bottom: 20px;
     }
-        
     .form-search input[type="text"] {
         padding: 8px;
         font-size: 16px;

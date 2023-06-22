@@ -20,3 +20,4 @@ public function after(RequestInterface $request, ResponseInterface $response, $a
 // Do something here
 }
 }
+?>

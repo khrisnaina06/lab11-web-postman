@@ -1,15 +1,49 @@
-# lab8web
+# Lab11web-POSTMAN
 
-<img width="735" alt="Screenshot 2023-05-28 113956" src="https://github.com/Pyatamaa/lab8web/assets/92738041/b336697b-2a6c-4bda-ab01-680db0091550">
+---
 
-<img width="737" alt="Screenshot 2023-05-28 113933" src="https://github.com/Pyatamaa/lab8web/assets/92738041/48ae651c-0713-4598-9066-f85d5c2406e5">
+## Berikut ini adalah pembuatan API menggunakan Framework Codeigniter 4
 
-<img width="737" alt="Screenshot 2023-05-28 113734" src="https://github.com/Pyatamaa/lab8web/assets/92738041/1eac3b3a-34a6-4b49-96f1-60b36a052d47">
+---
 
-<img width="736" alt="Screenshot 2023-05-28 113827" src="https://github.com/Pyatamaa/lab8web/assets/92738041/1fdcde3a-7da7-4f85-a3b8-b9d4ef052fab">
+- **Untuk mengecek route nya jalankan perintah berikut:**
+``` 
+php spark routes
+```
+---
+- **Selanjutnya akan muncul daftar route yang telah dibuat.**
 
-<img width="735" alt="Screenshot 2023-05-28 113906" src="https://github.com/Pyatamaa/lab8web/assets/92738041/9a1422cd-171b-48fb-be58-0ae717d686e1">
+![img1](img/routes.png)
 
-<img width="919" alt="Screenshot 2023-05-28 114335" src="https://github.com/Pyatamaa/lab8web/assets/92738041/2f7cb703-29ac-41ac-9acc-57984a6d0deb">
+- **Menampilkan Semua data dengan method GET dan Hasil dari test menampilkan semua data artikel dari database**
 
-<img width="738" alt="Screenshot 2023-05-28 114557" src="https://github.com/Pyatamaa/lab8web/assets/92738041/41c6a94e-dfc0-4b28-900d-42bc18cf8df2">
+![img1](img/get1.png)
+
+- **Menampilkan data Spesifik dengan menambahkan ID artikel di belakang URL menggunakan method GET**
+
+![img1](img/get2.png)
+
+- **Mengubah data menggunakan method PUT dengan memasukan URL yang ingin di ubah**
+
+![img1](img/put.png)
+
+- **Menambahkan data menggunakan method POST untuk menambahkan data baru ke database**
+
+![img1](img/post.png)
+
+- **Laman ketika berhasil menambahkan artikel baru ke database**
+
+![img1](img/artikel7.png)
+
+- **Menghapus data menggunakan method DELETE**
+
+![img1](img/delete.png)
+
+- **Laman ketika sebelum terhapus dan sesudah berhasil menghapus menggunakan method delete**
+### Before
+![img1](img/artikel7.png)
+
+### After
+![img1](img/after.png)
+
+# TERIMA KASIH

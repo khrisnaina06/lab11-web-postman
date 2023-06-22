@@ -36,6 +36,7 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 $routes->get('/artikel', 'Artikel::index');
 $routes->get('/artikel/(:any)', 'Artikel::view/$1');
+$routes->resource('post');
 
 $routes->group('admin', ['filter' => 'auth'], function($routes) {
     $routes->get('artikel', 'Artikel::admin_index');
