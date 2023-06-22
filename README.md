@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # Lab11web-POSTMAN
-
 ---
-
+---
+---
 ## Berikut ini adalah pembuatan API menggunakan Framework Codeigniter 4
 
 ---
