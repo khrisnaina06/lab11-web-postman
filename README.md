@@ -48,23 +48,6 @@ php spark routes
 ![img1](img/after.png)
 
 # TERIMA KASIH
-=======
-# Lab11-web
-# Penambahan Pagination dan Pencarian
 ---
-Berikut ini adalah output dari Penambahan Pagination dan Pencarian
-
-## Output
 ---
-
-- **Output Penambahan Pagination**
-![img0](img/1.png)
-## (Data dibatasi 3 record per halaman) 
-
-- **Output Penambahan Pencarian**
-![img1](img/2.png)
-
-
-
-# TERIMA KASIH 
->>>>>>> 46c2321003160a7ef90ead748b620c81453439a1
+---
